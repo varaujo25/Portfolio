@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none; /*retira as bolinhas*/
+    display: inline;
+    margin-right: 40px;
+}
+
+.cabecalho {
+    background-color: #BE89CB;
+    height: 103px; /*altura*/
+    width: 100%; /*largura*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none; /*retira o anderline_das palavras*/
+}
+
+.perfil{
+    background-color:#EDEAEA;
+    height: 579px;
+    text-align: center;
+}
+.minha-descrição {
+    font-size: 14px;
+    width: 490px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+.profissao {
+    font-size: 15px;
+    color: #BE89CB;
+}
+.formação {
+    background-color: #e5e5e5;
+    height: 500px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+    max-height: 601px;
+    padding-left: 10px;
+}
+.artigo-formação {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.titulo-secao {
+    font-size: 24px;
+    color: #ff4bdc;
+    margin-bottom: 50px;
+}
+.lista-formação {
+    padding-left: 32px;
+}
+.titulo-fomacao {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700;
+}
+.link-formacao {
+ color: #2F80ED;
+ font-size: 14px;   
+}
+.descricao-formacao {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #828282;
+    margin-bottom: 53px;
+}
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    max-width: 750px;
+    max-height: 601px;
+    padding-left: 10px;
+}
+.artigo-meus-projetos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.titulo-projeto {
+    font-size: 24px;   
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    background-color: #BE89CB;
+    height: 300px;
+}
+    .lista-rodape li {
+        color: #FFFFFF;
+        font-family: 'Open Sans';
+        font-size: 18x;
+        font-style: normal;
+        margin-bottom: 28px;
+        line-height: normal;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        background-color: #be89cb;
+        flex-wrap: nowrap;
+    }
+    .container-rodape {
+        margin-left: 60px;
+        background-color:#BE89CB;
+        height: 103px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start
+        text-decoration: none;
+    }
+    .lista-rodape {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .lista-contato {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
